@@ -1,14 +1,19 @@
 <suite name="RegressionTest">
-<parameter name="RequestID" value="Regression1"/>
+<parameter name="RequestID" value="Regression12"/>
    
     <test name="AdditionTestCases">
         <classes>
-        <Class name="PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases"/>
+        <class name="PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases"/>
         </classes>
     </test>
     <test name="TestingSubstractionTestCases">
         <classes>
-        <Class name="PragtiSoftwareTesting.NewCalculatorAPI.TestingSubstractionTestCases"/>
+        <class name="PragtiSoftwareTesting.NewCalculatorAPI.TestingSubstractionTestCases"/>
+        </classes>
+    </test>
+    <test name="TestMultiplication">
+        <classes>
+        <class name="PragtiSoftwareTesting.NewCalculatorAPI.TestMultiplication"/>
         </classes>
     </test>
 

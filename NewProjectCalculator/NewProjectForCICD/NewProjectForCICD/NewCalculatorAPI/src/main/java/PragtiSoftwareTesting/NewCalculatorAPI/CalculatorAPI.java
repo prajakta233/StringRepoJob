@@ -8,7 +8,12 @@ public class CalculatorAPI {
 		return res;
 	}
 	public int Substraction(int a,int b) {
-		int res=a+b;
+		int res=a-b;
+		return res;
+	}
+	public int Multilication(int a, int b) {
+		int res = a*b;
 		return res;
 	}
 }
+ 

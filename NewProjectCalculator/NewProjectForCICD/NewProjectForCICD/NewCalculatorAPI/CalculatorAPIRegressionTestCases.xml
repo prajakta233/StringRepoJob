@@ -15,5 +15,10 @@
         <Class name="PragtiSoftwareTesting.NewCalculatorAPI.TestingSubstractionTestCases"/>
         </classes>
     </test>
+    <test name="TestMultiplication">
+        <classes>
+        <Class name="PragtiSoftwareTesting.NewCalculatorAPI.TestMultiplication"/>
+        </classes>
+    </test>
 
 </suite>
