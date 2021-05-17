@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-15T10:54:32 IST" name="Default suite" finished-at="2021-05-15T10:54:32 IST" duration-ms="240">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="AdditionTestCases.TestAdditionWithNegativeNumbers()[pri:1, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" name="TestAdditionWithNegativeNumbers" class="PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases"/>
+        <method signature="AdditionTestCases.TestAdditionWithPositiveNumbers()[pri:2, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" name="TestAdditionWithPositiveNumbers" class="PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2021-05-15T10:54:32 IST" name="Default test" finished-at="2021-05-15T10:54:32 IST" duration-ms="240">
+      <class name="PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases">
+        <test-method is-config="true" signature="Init()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="Init" finished-at="2021-05-15T10:54:32 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method is-config="true" signature="ReinitialiseResultVar()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="ReinitialiseResultVar" finished-at="2021-05-15T10:54:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseResultVar -->
+        <test-method signature="TestAdditionWithNegativeNumbers()[pri:1, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="TestAdditionWithNegativeNumbers" finished-at="2021-05-15T10:54:32 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithNegativeNumbers -->
+        <test-method is-config="true" signature="ReinitialiseResultVar()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="ReinitialiseResultVar" finished-at="2021-05-15T10:54:32 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseResultVar -->
+        <test-method signature="TestAdditionWithPositiveNumbers()[pri:2, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="TestAdditionWithPositiveNumbers" finished-at="2021-05-15T10:54:32 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithPositiveNumbers -->
+        <test-method is-config="true" signature="ReinitialiseResultVar()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="ReinitialiseResultVar" finished-at="2021-05-15T10:54:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseResultVar -->
+        <test-method signature="TestAdditionWithPositiveOneNegative()[pri:3, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="TestAdditionWithPositiveOneNegative" finished-at="2021-05-15T10:54:32 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithPositiveOneNegative -->
+        <test-method is-config="true" signature="ReinitialiseResultVar()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="ReinitialiseResultVar" finished-at="2021-05-15T10:54:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseResultVar -->
+        <test-method signature="TestAdditionWithZeroNumbers()[pri:4, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="TestAdditionWithZeroNumbers" finished-at="2021-05-15T10:54:32 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithZeroNumbers -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases@50ad3bc1]" started-at="2021-05-15T10:54:32 IST" name="Teardown" finished-at="2021-05-15T10:54:32 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- PragtiSoftwareTesting.NewCalculatorAPI.AdditionTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
