@@ -1,0 +1,23 @@
+<suite name="ConcatinationOfString">
+<parameter name="RequestID" value="StringReq1"/>
+    <gropus>
+       <run>
+             <include name="RegressionTest"></include>
+       </run>      
+    </gropus>
+
+  <test name="StringConcat">
+       <classes>
+          <class name="PragatiTraining.StringProject.StringConcat">
+          </class>
+       </classes> 
+    </test>
+    
+      <test name="StringConcatData">
+       <classes>
+          <class name="PragatiTraining.StringProject.StringConcatData">
+          </class>
+       </classes> 
+    </test>
+    
+</suite>

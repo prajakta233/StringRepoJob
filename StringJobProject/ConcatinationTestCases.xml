@@ -1,0 +1,13 @@
+<suite name="ConcatinationOfString">
+<parameter name="RequestID" value="StringReq1"/>
+    <test name="StringConcat">
+       <classes>
+          <class name="PragatiTraining.StringJobProject.StringConcat">
+          </class>
+       </classes> 
+    </test>
+    
+   
+
+  
+</suite>
