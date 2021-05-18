@@ -6,13 +6,11 @@
           </class>
        </classes> 
     </test>
-    
-    <test name="StringConcatData">
+
+  <test name="StringConcatData">
        <classes>
           <class name="PragatiTraining.StringProject.StringConcatData">
           </class>
        </classes> 
-    </test>
-
-  
+     
 </suite>

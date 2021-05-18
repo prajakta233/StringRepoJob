@@ -7,12 +7,6 @@
        </classes> 
     </test>
     
-    <test name="StringConcatData">
-       <classes>
-          <class name="PragatiTraining.StringProject.StringConcatData">
-          </class>
-       </classes> 
-    </test>
-
-  
+   
+    
 </suite>
