@@ -1,0 +1,17 @@
+<suite name="TestingConcatinationOfString">
+<parameter name="RequestID" value="StringRequest"/>
+    <test name="StringConcat">
+       <classes>
+          <class name="PragtiSoftwareTesting.StringConcatination.StringConcat">
+          </class>
+       </classes> 
+    </test>
+    
+    <test name="StringConcatData">
+       <classes>
+          <class name="PragtiSoftwareTesting.StringConcatination.StringConcatData">
+          </class>
+       </classes>
+    </test>   
+    
+</suite>
