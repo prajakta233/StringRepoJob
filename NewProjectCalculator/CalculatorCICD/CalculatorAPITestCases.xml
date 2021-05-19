@@ -1,0 +1,12 @@
+<suite name="TestingCalculatorAPI">
+<parameter name="RequestID" value="Req143"/>
+    <test name="AdditionTestCases">
+        <classes>   
+             <class name="PragatiTraining.CalculatorCICD.AdditionTestCases">
+             </class>
+        </classes>
+          
+    </test>
+  
+
+</suite>

@@ -1,4 +1,4 @@
-!SESSION 2021-05-15 10:44:05.241 -----------------------------------------------
+!SESSION 2021-05-19 10:34:48.672 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=15.0.2
 java.vendor=Oracle Corporation
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.jface 2 0 2021-05-15 10:44:50.313
+!ENTRY org.eclipse.jface 2 0 2021-05-19 10:34:59.409
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-15 10:44:50.313
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-19 10:34:59.409
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@755fdfad,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49616310,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,25 +22,25 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c98eaa9,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ee76cf2,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.ui.navigator 2 0 2021-05-15 10:45:44.965
+!ENTRY org.eclipse.ui.navigator 2 0 2021-05-19 10:35:19.393
 !MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
 
-!ENTRY org.eclipse.ui.navigator 2 0 2021-05-15 10:45:45.222
-!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
-
-!ENTRY org.eclipse.egit.ui 2 0 2021-05-15 10:45:46.004
+!ENTRY org.eclipse.egit.ui 2 0 2021-05-19 10:35:19.510
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.ui.ide 4 4 2021-05-15 10:45:57.337
+!ENTRY org.eclipse.ui.navigator 2 0 2021-05-19 10:35:19.543
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-05-19 10:35:29.389
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -89,7 +89,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 
-!ENTRY org.eclipse.ui.ide 4 4 2021-05-15 10:45:57.445
+!ENTRY org.eclipse.ui.ide 4 4 2021-05-19 10:35:29.557
 !MESSAGE Not properly disposed SWT resource
 !STACK 0
 java.lang.Error: SWT Resource was not properly disposed
@@ -138,7 +138,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 
-!ENTRY org.testng.eclipse 4 4 2021-05-15 10:53:52.410
+!ENTRY org.testng.eclipse 4 4 2021-05-19 10:43:00.449
 !MESSAGE Error
 !STACK 0
 java.util.concurrent.CancellationException
@@ -155,10 +155,34 @@ java.util.concurrent.CancellationException
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
 
-!ENTRY org.testng.eclipse 1 0 2021-05-15 10:54:27.123
+!ENTRY org.testng.eclipse 1 0 2021-05-19 10:43:58.592
 !MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
-  Classpath: C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\target\test-classes C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar
+  Classpath: C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar
   VMArgs:    -ea
   Class:     org.testng.remote.RemoteTestNG
-  Args:      -serport 55344 -protocol json -d C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--41762729\testng-customsuite.xml
-java -ea -classpath C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\target\test-classes:C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar org.testng.remote.RemoteTestNG -serport 55344 -protocol json -d C:\Users\ASUS\NewProjectCalculator\NewCalculatorAPI\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--41762729\testng-customsuite.xml
+  Args:      -serport 52237 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--544016449\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar org.testng.remote.RemoteTestNG -serport 52237 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--544016449\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-05-19 10:46:05.410
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52330 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml
+java -ea -classpath C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar org.testng.remote.RemoteTestNG -serport 52330 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-05-19 10:46:50.599
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52358 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml
+java -ea -classpath C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar org.testng.remote.RemoteTestNG -serport 52358 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-05-19 10:47:38.125
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52393 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml
+java -ea -classpath C:\Users\ASUS\eclipse\jee-2021-03\eclipse\configuration\org.eclipse.osgi\940\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\test-classes:C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar org.testng.remote.RemoteTestNG -serport 52393 -protocol json -d C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\test-output C:\Users\ASUS\NewProjectCalculator\CalculatorCICD\CalculatorAPITestCases.xml

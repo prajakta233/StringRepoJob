@@ -1,0 +1,33 @@
+<suite name="TestingCalculatorAPI">
+<parameter name="RequestID" value="Req2"/>
+    <test name="AdditionTestCases">
+        <classes>   
+             <class name="PragtiSoftwareTesting.CalculatorAPI.AdditionTestCases">
+             </class>
+        </classes>
+          
+    </test>
+    <test name="TestingSubstractionTestCases">
+        <classes>   
+             <class name="PragtiSoftwareTesting.CalculatorAPI.TestingSubstractionTestCases">
+             </class>
+        </classes>
+    </test>
+    
+    <test name="TestMultiplication">
+        <classes>   
+             <class name="PragtiSoftwareTesting.CalculatorAPI.TestMultiplication">
+             </class>
+        </classes>
+    </test>
+    
+     
+    <test name="TestDivision">
+        <classes>   
+             <class name="PragtiSoftwareTesting.CalculatorAPI.TestDivision">
+             </class>
+        </classes>
+    </test>
+    
+
+</suite>
