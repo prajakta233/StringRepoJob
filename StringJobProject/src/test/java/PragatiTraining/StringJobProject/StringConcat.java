@@ -51,6 +51,8 @@ public class StringConcat {
 	  @AfterClass
 	     public void Teardown() {
 	    	 System.out.println("I am in After Class");
+	    	 System.out.println("Newly Running Process");
+	    	 
 	    	 ca=null;
 	    	 
 	     }
