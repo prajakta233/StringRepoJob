@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ConcatinationOfString" duration-ms="106" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="StringConcat.TestConcatinationWithTwoString()[pri:1, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="TestConcatinationWithTwoString" class="PragatiTraining.StringJobProject.StringConcat"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="StringConcat" duration-ms="106" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+      <class name="PragatiTraining.StringJobProject.StringConcat">
+        <test-method status="PASS" signature="CreateResultFolder(java.lang.String)[pri:0, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="CreateResultFolder" is-config="true" duration-ms="27" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StringReq1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateResultFolder -->
+        <test-method status="PASS" signature="Init()[pri:0, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="Init" is-config="true" duration-ms="6" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="ReinitialiseResultVar()[pri:0, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="ReinitialiseResultVar" is-config="true" duration-ms="0" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReinitialiseResultVar -->
+        <test-method status="PASS" signature="TestConcatinationWithTwoString()[pri:1, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="TestConcatinationWithTwoString" duration-ms="14" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestConcatinationWithTwoString -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="Teardown" is-config="true" duration-ms="1" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="CopyResultFile(java.lang.String)[pri:0, instance:PragatiTraining.StringJobProject.StringConcat@2038ae61]" name="CopyResultFile" is-config="true" duration-ms="401" started-at="2021-05-19T09:39:38 IST" finished-at="2021-05-19T09:39:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StringReq1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyResultFile -->
+      </class> <!-- PragatiTraining.StringJobProject.StringConcat -->
+    </test> <!-- StringConcat -->
+  </suite> <!-- ConcatinationOfString -->
+</testng-results>
