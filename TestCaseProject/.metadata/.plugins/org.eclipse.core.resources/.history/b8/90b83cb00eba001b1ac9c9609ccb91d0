@@ -1,0 +1,34 @@
+package PragatiTraining.TestCaseProject.Pages;
+
+public class LoginPage {
+	
+	public LoginPage(String BrowserName) {
+		
+		StartTest(BrowserName);
+		CreateObjectRepository("LoginPage");
+	}
+	
+	
+
+	public void EnterUserName(String Uname) {
+		
+		EnterText(Element,Uname);
+	}
+	
+	public void EnterPassword(String pass) {
+	
+		EnterText(Element,pass);
+	}
+	
+	public void ClickSignInButton() {
+		ClickElement(Element);
+		
+	}
+	
+	public void DoLogin(String UserName,String Password) {
+		EnterUserName(UserName);
+		EnterPassword(Password);
+		ClickSignInButton();
+	}
+
+}

@@ -1,0 +1,36 @@
+package PragatiTraining.TestCaseProject.Pages;
+
+import PragatiTraining.AutomationFrameworkAPI.WebTest;
+//import PragatiTraining.AutomationFrameworkAPI.Utilities.Utils;
+public class LoginPage {
+	
+	WebTest T;
+	public LoginPage(String BrowserName) {
+		T=new WebTest();
+		T.StartTest(BrowserName);
+	//	T.CreateObjectRepository("LoginPage");
+	}
+	
+
+	public void EnterUserName(String Uname) {
+		
+		T.EnterText(T.ObjectRepo.get("UserNameField"),Uname);
+	}
+	
+	public void EnterPassword(String pass) {
+	
+		T.EnterText(T.ObjectRepo.get("PasswordField"),pass);
+	}
+	
+	public void ClickSignInButton() {
+		T.ClickElement(T.ObjectRepo.get("SigninButton"));
+		
+	}
+	
+	public void DoLogin(String UserName,String Password) {
+		EnterUserName(UserName);
+		EnterPassword(Password);
+		ClickSignInButton();
+	}
+
+}

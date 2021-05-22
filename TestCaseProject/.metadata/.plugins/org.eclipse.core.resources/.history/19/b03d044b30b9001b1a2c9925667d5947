@@ -1,0 +1,20 @@
+package PragatiTraining.TestCaseProject.TestCases;
+
+public class LoginTestCases {
+	
+	public void TestLoginWithValidCredential() {
+		
+		/*
+		 * 1. Open broswer
+		 * 2. Open URL
+		 * 3. Enter "mercury" in Username field
+		 * 4. Enter "mercury" in password field
+		 * 5. click on SignIn button
+		 * 6. Verify Welcome screen appears
+		 * 
+		 */
+		
+		
+	}
+
+}
