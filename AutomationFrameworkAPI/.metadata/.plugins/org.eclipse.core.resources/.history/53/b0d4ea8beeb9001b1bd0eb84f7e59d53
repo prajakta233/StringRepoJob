@@ -1,0 +1,18 @@
+package PragatiTraining.AutomationFrameworkAPI;
+
+public class WebTest {
+	
+	public void StartTest(String BrowserName) {
+		
+		StartBrowser(BrowserName);
+		OpenUrl();
+	}
+	public void StartBrowser(String BrowserName) {
+		
+	}
+	
+	public void OpenUrl() {
+		
+	}
+
+}

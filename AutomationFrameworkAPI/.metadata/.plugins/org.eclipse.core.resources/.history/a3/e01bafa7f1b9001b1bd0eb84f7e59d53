@@ -1,0 +1,31 @@
+package PragatiTraining.AutomationFrameworkAPI;
+
+public class WebTest {
+	
+	RemoteWebDriver D;
+	public void StartTest(String BrowserName) {
+		
+		StartBrowser(BrowserName);
+		OpenUrl();
+	}
+	public void StartBrowser(String BrowserName) {
+		
+		switch(BrowserName) 
+		{
+		     case "CHROME" :
+		    	 
+		         D=new ChromeDriver();
+		    	 
+		     case "FIREFOX" :	
+		    	 
+		    	 D=new FirefoxDriver();
+		    	       
+		         
+		}
+	}
+	
+	public void OpenUrl() {
+		
+	}
+
+}

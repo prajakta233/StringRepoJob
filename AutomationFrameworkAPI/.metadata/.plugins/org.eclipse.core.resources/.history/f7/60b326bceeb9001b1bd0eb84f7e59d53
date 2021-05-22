@@ -1,0 +1,26 @@
+package PragatiTraining.AutomationFrameworkAPI;
+
+public class WebTest {
+	
+	public void StartTest(String BrowserName) {
+		
+		StartBrowser(BrowserName);
+		OpenUrl();
+	}
+	public void StartBrowser(String BrowserName) {
+		
+		switch(BrowserName) 
+		{
+		     case "CHROME" :
+		    
+		    	 
+		     case "FIREFOX" :	 
+		         
+		}
+	}
+	
+	public void OpenUrl() {
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package PragatiTraining.AutomationFrameworkAPI;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import PragatiTraining.AutomationFrameworkAPI.Utilities.Utils;
+
+public class WebTest {
+	
+	RemoteWebDriver D;
+	public void StartTest(String BrowserName) {
+		
+		StartBrowser(BrowserName);
+		OpenURL();
+	}
+	public void StartBrowser(String BrowserName) {
+		
+		switch(BrowserName) 
+		{
+		     case "CHROME" :
+		    	 System.setProperty("webdriver.chrome.driver",Utils.EnvWars.get("DRIVERS_PATH")+Utils.EnvWars.get("CHROMEDRIVER"));
+		         D=new ChromeDriver();
+		    	 
+		     case "FIREFOX" :	
+		    	 
+		    	 D=new FirefoxDriver();
+		    	       
+		         
+		}
+	}
+	
+	public void OpenURL() {
+		
+	}
+
+}

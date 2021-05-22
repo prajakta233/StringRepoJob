@@ -1,0 +1,39 @@
+package PragatiTraining.AutomationFrameworkAPI.Utilities;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Utils {
+	
+	public void InitialisEnvWars() {
+		
+		String FilePath="C:\\PragatiSoftwareTesting\\link\\EnvWars.csv";
+		
+		//Opening file in read mode
+		try {
+			FileReader FR=new FileReader(FilePath);
+			BufferedReader BR=new BufferedReader(FR);
+			String Line=BR.readLine();
+			while(Line!=null) {
+				//e.g DRIVERS_PATH,C:\\PragatiSoftwareTesting\\Seleniums-Drivers\\
+				String[]parts=Line.split(",");
+				/*
+				 * parts[0]=DRIVERS_PATH
+				 * parts[1]=C:\\PragatiSoftwareTesting\\Seleniums-Drivers\\
+				 */
+			}
+		} 
+		catch (FileNotFoundException e) {
+			
+			System.out.println("File :"+FilePath+ "Not Found. ");
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Problem in reading file: "+FilePath);
+		}
+		
+	}
+
+}

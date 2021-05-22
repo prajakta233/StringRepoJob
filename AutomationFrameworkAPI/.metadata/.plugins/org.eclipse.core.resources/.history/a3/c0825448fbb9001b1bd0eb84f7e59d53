@@ -1,0 +1,11 @@
+package PragatiTraining.AutomationFrameworkAPI.Utilities;
+
+public class Utils {
+	
+	public void InitialisEnvWars() {
+		
+		String FilePath="C:\\PragatiSoftwareTesting\\link\\Envwar.csv";
+		
+	}
+
+}

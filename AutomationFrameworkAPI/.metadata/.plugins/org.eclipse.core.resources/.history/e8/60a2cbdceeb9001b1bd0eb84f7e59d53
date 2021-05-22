@@ -1,0 +1,27 @@
+package PragatiTraining.AutomationFrameworkAPI;
+
+public class WebTest {
+	
+	ChromeDriver D;
+	public void StartTest(String BrowserName) {
+		
+		StartBrowser(BrowserName);
+		OpenUrl();
+	}
+	public void StartBrowser(String BrowserName) {
+		
+		switch(BrowserName) 
+		{
+		     case "CHROME" :
+		                D=new ChromeDriver();
+		    	 
+		     case "FIREFOX" :	 
+		         
+		}
+	}
+	
+	public void OpenUrl() {
+		
+	}
+
+}
