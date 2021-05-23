@@ -73,8 +73,8 @@ public class WebTest {
 	
 	public void AppendText()
 	{
-		
-	}
+		System.out.println("Hello !!");
+		}
 	public void ClickElement(WebElement E)
 	{
 		E.click();
