@@ -30,7 +30,6 @@ public class StringConcat {
 	}
 	@BeforeClass
 	public void Init() {
-		System.out.println(" Using for Jenkins");
 		 System.out.println("I am in Before class");
 		 ca=new Concatination();
 		
