@@ -1,4 +1,4 @@
-package PragatiTraining.StringProject;
+package PragatiTesting.StringProject;
 
 import org.testng.annotations.DataProvider;
 //import org.testng.annotations.Optional;
